@@ -1,0 +1,38 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Pane version
+      placeholder: "0.1"
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: Mac and macOS
+      placeholder: "MacBook Pro M3 Pro, macOS 26.3"
+    validations:
+      required: true
+  - type: textarea
+    id: displays
+    attributes:
+      label: Displays and connections
+      description: Model of each display and how it is connected (USB-C, HDMI, DisplayPort, dock, adapter).
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Steps, what you expected, what happened instead. Screenshots welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (optional)
+      description: Output of `pane debug` and `pane log n=50`. Remove anything private.
+      render: text
