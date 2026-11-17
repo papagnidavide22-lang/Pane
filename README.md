@@ -13,13 +13,14 @@
 <p align="center">
   <img alt="macOS 26+" src="https://img.shields.io/badge/macOS-26%2B-000000?logo=apple&logoColor=white">
   <img alt="Apple silicon" src="https://img.shields.io/badge/Apple%20silicon-M1%20and%20later-0A84FF">
-  <img alt="Version 0.1" src="https://img.shields.io/badge/version-0.1-5E5CE6">
+  <img alt="Version 0.2" src="https://img.shields.io/badge/version-0.2-5E5CE6">
   <img alt="11 languages" src="https://img.shields.io/badge/languages-11-30D158">
   <img alt="Free" src="https://img.shields.io/badge/price-free-FF9F0A">
 </p>
 
 <p align="center">
   <a href="../../releases/latest"><b>⬇︎ Download</b></a> ·
+  <a href="#whats-new-in-02">What's new</a> ·
   <a href="#features">Features</a> ·
   <a href="#why-pane">Why Pane</a> ·
   <a href="#screenshots">Screenshots</a> ·
@@ -39,6 +40,15 @@ It is built for people who work with screens all day: video and AV professionals
 <p align="center">
   <img src="assets/overview.png" alt="Pane Overview dashboard" width="100%">
 </p>
+
+## What's new in 0.2
+
+- **Show instead of list.** Pick a resolution from five drawn screens. The LED wall is drawn in true proportion as you type, the equalizer is a curve you drag, calibration is three step cards, shortcuts show as keycaps.
+- **Clearer pages.** A glass header on every display page with a summary of how Pane reaches it, icons on sections, big bars for brightness, contrast and volume.
+- **Updates from GitHub.** Pane checks once a day and offers the download. Nothing about you or your Mac is sent.
+- **Windows back in place** when a set of displays comes back, with Undo.
+- **OLED care**: pixel-cleaning reminders and a warning when the menu bar and Dock stay bright for hours.
+- **Export diagnostics** in one zip to attach to a bug report, plus fixes to the safety net, DisplayLink brightness and translations. [Full release notes](../../releases/tag/v0.2)
 
 ## Why Pane
 
@@ -158,7 +168,7 @@ Changing displays can leave you with a black screen. Pane is designed so that ne
     <td><img src="assets/audio.png" alt="Software audio"><p align="center"><sub><b>Audio</b> — volume and a 10-band EQ for any output</sub></p></td>
   </tr>
   <tr>
-    <td><img src="assets/scenes.png" alt="Scenes"><p align="center"><sub><b>Scenes</b> — one click, or automatic by time, light or connection</sub></p></td>
+    <td><img src="assets/display-general.png" alt="Resolution sizes"><p align="center"><sub><b>Resolution</b> — pick a size from five previews, sharp with flexible HiDPI</sub></p></td>
     <td><img src="assets/keyboard.png" alt="Keyboard"><p align="center"><sub><b>Keyboard</b> — brightness keys, on-screen indicator, shortcuts</sub></p></td>
   </tr>
 </table>
@@ -172,7 +182,7 @@ Changing displays can leave you with a black screen. Pane is designed so that ne
 
 **Requirements:** a Mac with Apple silicon (M1 or later) and macOS 26 or later.
 
-1. Download **Pane-0.1.dmg** from [Releases](../../releases/latest).
+1. Download **Pane-0.2.dmg** from [Releases](../../releases/latest).
 2. Open it and drag **Pane** into **Applications**.
 3. Open Pane. The first time macOS says it can't verify the developer: Pane is distributed outside the App Store and is not notarized yet. Press **Done**, open **System Settings › Privacy & Security**, scroll down and press **Open Anyway** next to Pane.
 4. Pane lives in the **menu bar** (top right). Click it for the panel; right-click for the quick menu; open **Settings** for everything else.
@@ -207,7 +217,7 @@ Pane follows your Mac's language; you can change it in Settings › General.
 
 ## Feedback
 
-Found a bug or have an idea? [Open an issue](../../issues/new/choose). Pane is young (version 0.1): reports with your Mac model, macOS version and the monitor or adapter involved help most.
+Found a bug or have an idea? [Open an issue](../../issues/new/choose). Pane is young (version 0.2): reports with your Mac model, macOS version and the monitor or adapter involved help most.
 
 ## Security
 

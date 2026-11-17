@@ -13,13 +13,14 @@
 <p align="center">
   <img alt="macOS 26+" src="https://img.shields.io/badge/macOS-26%2B-000000?logo=apple&logoColor=white">
   <img alt="Apple silicon" src="https://img.shields.io/badge/Apple%20silicon-M1%20e%20successivi-0A84FF">
-  <img alt="Versione 0.1" src="https://img.shields.io/badge/versione-0.1-5E5CE6">
+  <img alt="Versione 0.2" src="https://img.shields.io/badge/versione-0.2-5E5CE6">
   <img alt="11 lingue" src="https://img.shields.io/badge/lingue-11-30D158">
   <img alt="Gratuita" src="https://img.shields.io/badge/prezzo-gratis-FF9F0A">
 </p>
 
 <p align="center">
   <a href="../../releases/latest"><b>⬇︎ Scarica</b></a> ·
+  <a href="#novità-della-02">Novità</a> ·
   <a href="#funzioni">Funzioni</a> ·
   <a href="#perché-pane">Perché Pane</a> ·
   <a href="#screenshot">Screenshot</a> ·
@@ -39,6 +40,15 @@ Pane riunisce in un solo posto tutti gli schermi collegati al Mac: il pannello i
 <p align="center">
   <img src="assets/overview.png" alt="Panoramica di Pane" width="100%">
 </p>
+
+## Novità della 0.2
+
+- **Mostrare invece di elencare.** La risoluzione si sceglie da cinque schermi disegnati. Il LED wall è disegnato in proporzione mentre scrivi, l'equalizzatore è una curva da trascinare, la calibrazione tre schede, le scorciatoie tasti veri.
+- **Pagine più chiare.** Intestazione in vetro su ogni schermo con il riepilogo del collegamento, icone nelle sezioni, barre grandi per luminosità, contrasto e volume.
+- **Aggiornamenti da GitHub.** Una volta al giorno Pane controlla e propone il download. Non invia nulla su di te o sul Mac.
+- **Finestre al loro posto** quando un gruppo di schermi torna, con Annulla.
+- **Cura OLED**: promemoria per la pulizia dei pixel e avviso se barra dei menu e Dock restano luminosi per ore.
+- **Esporta diagnostica** in uno zip da allegare a una segnalazione, più correzioni a rete di sicurezza, luminosità DisplayLink e traduzioni. [Note complete](../../releases/tag/v0.2)
 
 ## Perché Pane
 
@@ -158,7 +168,7 @@ Cambiare le impostazioni degli schermi può lasciarti con uno schermo nero. Pane
     <td><img src="assets/audio.png" alt="Audio software"><p align="center"><sub><b>Audio</b> — volume ed equalizzatore a 10 bande per ogni uscita</sub></p></td>
   </tr>
   <tr>
-    <td><img src="assets/scenes.png" alt="Scene"><p align="center"><sub><b>Scene</b> — in un clic, o automatiche per orario, luce o collegamento</sub></p></td>
+    <td><img src="assets/display-general.png" alt="Dimensioni della risoluzione"><p align="center"><sub><b>Risoluzione</b> — scegli la dimensione da cinque anteprime, nitida con l'HiDPI flessibile</sub></p></td>
     <td><img src="assets/keyboard.png" alt="Tastiera"><p align="center"><sub><b>Tastiera</b> — tasti luminosità, indicatore a schermo, scorciatoie</sub></p></td>
   </tr>
 </table>
@@ -174,7 +184,7 @@ Cambiare le impostazioni degli schermi può lasciarti con uno schermo nero. Pane
 
 **Requisiti:** un Mac con chip Apple (M1 o successivo) e macOS 26 o più recente.
 
-1. Scarica **Pane-0.1.dmg** da [Releases](../../releases/latest).
+1. Scarica **Pane-0.2.dmg** da [Releases](../../releases/latest).
 2. Aprilo e trascina **Pane** nella cartella **Applicazioni**.
 3. Apri Pane. La prima volta macOS dirà che non può verificare lo sviluppatore: Pane è distribuita fuori dall'App Store e non è ancora notarizzata. Premi **Fine**, apri **Impostazioni di Sistema › Privacy e sicurezza**, scorri in basso e premi **Apri comunque** accanto a Pane.
 4. Pane vive nella **barra dei menu** (in alto a destra). Cliccala per il pannello; clic destro per il menu rapido; apri **Impostazioni** per tutto il resto.
@@ -209,7 +219,7 @@ Pane segue la lingua del Mac; puoi cambiarla in Impostazioni › Generale.
 
 ## Segnalazioni
 
-Hai trovato un problema o hai un'idea? [Apri una segnalazione](../../issues/new/choose). Pane è giovane (versione 0.1): aiutano molto il modello del Mac, la versione di macOS e il monitor o l'adattatore coinvolti.
+Hai trovato un problema o hai un'idea? [Apri una segnalazione](../../issues/new/choose). Pane è giovane (versione 0.2): aiutano molto il modello del Mac, la versione di macOS e il monitor o l'adattatore coinvolti.
 
 ## Sicurezza
 
