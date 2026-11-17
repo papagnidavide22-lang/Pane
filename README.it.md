@@ -13,7 +13,7 @@
 <p align="center">
   <img alt="macOS 26+" src="https://img.shields.io/badge/macOS-26%2B-000000?logo=apple&logoColor=white">
   <img alt="Apple silicon" src="https://img.shields.io/badge/Apple%20silicon-M1%20e%20successivi-0A84FF">
-  <img alt="Versione 0.2" src="https://img.shields.io/badge/versione-0.2-5E5CE6">
+  <img alt="Versione 0.2.1" src="https://img.shields.io/badge/versione-0.2.1-5E5CE6">
   <img alt="11 lingue" src="https://img.shields.io/badge/lingue-11-30D158">
   <img alt="Gratuita" src="https://img.shields.io/badge/prezzo-gratis-FF9F0A">
 </p>
@@ -184,7 +184,7 @@ Cambiare le impostazioni degli schermi può lasciarti con uno schermo nero. Pane
 
 **Requisiti:** un Mac con chip Apple (M1 o successivo) e macOS 26 o più recente.
 
-1. Scarica **Pane-0.2.dmg** da [Releases](../../releases/latest).
+1. Scarica **Pane-0.2.1.dmg** da [Releases](../../releases/latest).
 2. Aprilo e trascina **Pane** nella cartella **Applicazioni**.
 3. Apri Pane. La prima volta macOS dirà che non può verificare lo sviluppatore: Pane è distribuita fuori dall'App Store e non è ancora notarizzata. Premi **Fine**, apri **Impostazioni di Sistema › Privacy e sicurezza**, scorri in basso e premi **Apri comunque** accanto a Pane.
 4. Pane vive nella **barra dei menu** (in alto a destra). Cliccala per il pannello; clic destro per il menu rapido; apri **Impostazioni** per tutto il resto.
@@ -219,7 +219,7 @@ Pane segue la lingua del Mac; puoi cambiarla in Impostazioni › Generale.
 
 ## Segnalazioni
 
-Hai trovato un problema o hai un'idea? [Apri una segnalazione](../../issues/new/choose). Pane è giovane (versione 0.2): aiutano molto il modello del Mac, la versione di macOS e il monitor o l'adattatore coinvolti.
+Hai trovato un problema o hai un'idea? [Apri una segnalazione](../../issues/new/choose). Pane è giovane (versione 0.2.1): aiutano molto il modello del Mac, la versione di macOS e il monitor o l'adattatore coinvolti.
 
 ## Sicurezza
 

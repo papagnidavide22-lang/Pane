@@ -13,7 +13,7 @@
 <p align="center">
   <img alt="macOS 26+" src="https://img.shields.io/badge/macOS-26%2B-000000?logo=apple&logoColor=white">
   <img alt="Apple silicon" src="https://img.shields.io/badge/Apple%20silicon-M1%20and%20later-0A84FF">
-  <img alt="Version 0.2" src="https://img.shields.io/badge/version-0.2-5E5CE6">
+  <img alt="Version 0.2.1" src="https://img.shields.io/badge/version-0.2.1-5E5CE6">
   <img alt="11 languages" src="https://img.shields.io/badge/languages-11-30D158">
   <img alt="Free" src="https://img.shields.io/badge/price-free-FF9F0A">
 </p>
@@ -182,7 +182,7 @@ Changing displays can leave you with a black screen. Pane is designed so that ne
 
 **Requirements:** a Mac with Apple silicon (M1 or later) and macOS 26 or later.
 
-1. Download **Pane-0.2.dmg** from [Releases](../../releases/latest).
+1. Download **Pane-0.2.1.dmg** from [Releases](../../releases/latest).
 2. Open it and drag **Pane** into **Applications**.
 3. Open Pane. The first time macOS says it can't verify the developer: Pane is distributed outside the App Store and is not notarized yet. Press **Done**, open **System Settings › Privacy & Security**, scroll down and press **Open Anyway** next to Pane.
 4. Pane lives in the **menu bar** (top right). Click it for the panel; right-click for the quick menu; open **Settings** for everything else.
@@ -217,7 +217,7 @@ Pane follows your Mac's language; you can change it in Settings › General.
 
 ## Feedback
 
-Found a bug or have an idea? [Open an issue](../../issues/new/choose). Pane is young (version 0.2): reports with your Mac model, macOS version and the monitor or adapter involved help most.
+Found a bug or have an idea? [Open an issue](../../issues/new/choose). Pane is young (version 0.2.1): reports with your Mac model, macOS version and the monitor or adapter involved help most.
 
 ## Security
 
